@@ -1,0 +1,122 @@
+body {
+  background: linear-gradient(180deg, #f8f0e3 0%, #e2d1c3 100%);
+  font-family: "Cormorant Garamond", serif;
+}
+
+/*nav-bar*/
+.navbar-custom {
+  background-color: #f8f0e3;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* links */
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.57);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.places a::after {
+  display: inline-block;
+  color: #000;
+  content: " ";
+  font-weight: bold;
+  padding: 5px 15px;
+}
+
+/* hero */
+
+.hero {
+  padding: 60px 0;
+}
+
+.introduction {
+  padding: 60px;
+}
+
+h1 {
+  text-align: center;
+  line-height: 20px;
+  font-size: 70px;
+  padding: 20px;
+  font-weight: 100;
+}
+
+.hero h2,
+p {
+  text-align: center;
+}
+
+h3 {
+  line-height: 30px;
+}
+
+.bali-text {
+  color: #a67c00;
+  font-weight: 1000;
+}
+
+.more-info {
+  text-align: center;
+}
+
+/* homepage */
+.description {
+  text-align: center;
+  padding: 0px 120px;
+}
+
+.bali-map {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+button {
+  display: block;
+  margin: 20px auto;
+  background: #f8f0e3;
+  color: #000;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  background: #e2d1c3;
+  color: #fff;
+  cursor: pointer;
+}
+.footer {
+  text-align: center;
+  font-size: 14px;
+}
+
+@media (max-width: 990px) {
+  .main-image {
+    padding: 0px 60px;
+  }
+
+  .introduction {
+    padding: 0px 60px;
+  }
+
+  .description {
+    text-align: center;
+    padding: 0px 60px;
+  }
+
+  .introduction {
+    padding-top: 70px;
+  }
+}
